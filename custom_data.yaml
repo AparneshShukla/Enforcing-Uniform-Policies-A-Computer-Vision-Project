@@ -1,0 +1,13 @@
+train: /workspace/yolov7/custom_dataset/train/images
+val:   /workspace/yolov7/custom_dataset/valid/images
+test:  /workspace/yolov7/custom_dataset/test/images
+
+nc: 3
+names: ['No-Tie', 'Non-Unifromed', 'Unifromed']
+
+roboflow:
+  workspace: h20majorproject
+  project: unifrom_detection
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/h20majorproject/unifrom_detection/dataset/4
